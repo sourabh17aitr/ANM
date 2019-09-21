@@ -1,0 +1,23 @@
+server:
+  port: 6060
+spring:
+  profiles:
+    active:
+    - dev
+  application:
+    name: ANM
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    port: 587
+    protocol: smtp
+    username: acheronsoftwareconsultancy@gmail.com
+    password: acheronroot
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
