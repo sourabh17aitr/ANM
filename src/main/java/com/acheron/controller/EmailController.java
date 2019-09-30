@@ -52,7 +52,6 @@ public class EmailController {
 		Reciever reciever = new Reciever();
 		List<String> sender = new ArrayList();
 		sender.add("sourabh@acheron-tech.com");
-		sender.add("digvijay@acheron-tech.com");
 		reciever.setTo(sender);
 		sendMail.setReciever(reciever);
 		Content mailContent = new Content();
